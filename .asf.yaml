@@ -1,0 +1,17 @@
+# ASF metadata for a fork used only to submit pull requests upstream.
+# Lives on the default branch (asf) so that main can stay an exact mirror of
+# upstream; a commit on main would break the daily fast-forward sync.
+
+github:
+  description: >-
+    Fork of The-AI-Alliance/gofannon, used to submit contributions upstream.
+    Not a fork of apache/tooling-gofannon.
+  homepage: https://github.com/The-AI-Alliance/gofannon
+  features:
+    issues: false
+    projects: false
+    wiki: false
+
+notifications:
+  commits: notifications@tooling.apache.org
+  pullrequests: notifications@tooling.apache.org
