@@ -1,0 +1,5 @@
+# This fork exists only to open pull requests against
+# The-AI-Alliance/gofannon. Its main branch is an exact mirror of upstream
+# and must never diverge, so dependency updates belong upstream, not here.
+version: 2
+updates: []
